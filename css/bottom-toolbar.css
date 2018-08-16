@@ -17,4 +17,11 @@
     background-color: gainsboro;
     box-shadow: 0 1px 0 0 rgba(58,58,58,.1),0 1px 5px 0 rgba(58,58,58,.2);
 }
+#action_list prm-action-list .md-button.accessible-close {
+    width: inherit;
+    height: inherit;
+    left: inherit;
+    overflow: inherit;
+    position: inherit;
+    margin: 0.5em 0 0.5em 0 !important;
 }
