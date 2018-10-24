@@ -37,4 +37,16 @@ prm-full-view .send-actions-content-item {
 #action_list prm-action-list .send-actions-content-item div.flex {
     max-width: 500px;
 }
+.prm-alert-border, .bar.alert-bar, .classic-input .search-scope {
+	  border-color: #e8e8e8;
+}
+.prm-alert-bg, .bar.alert-bar, .classic-input .search-scope {
+	  background-color: #f8f8f8;
+}
+
+.bar.alert-bar {
+    height: 48px;
+    min-height: 48px;
+    margin-bottom: 6px;
+}
 
