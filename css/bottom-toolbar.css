@@ -14,7 +14,7 @@
 #action_list prm-action-list {
     position: fixed;
     bottom: 0;
-    max-width: 60%;
+    max-width: 65%;
     margin-left: -7.5em;
     z-index: 98;
     background-color: gainsboro;
@@ -22,6 +22,13 @@
 }
 #action_list prm-action-list .container-nav-controls {
     z-index: 100;
+}
+#action_list prm-action-list > md-nav-bar .md-nav-item .md-button {
+    line-height: 16px;
+}
+#action_list prm-action-list > md-nav-bar .md-nav-item .md-button md-icon svg {
+    height: 110%;
+    width: 110%;
 }
 #action_list prm-action-list .md-button.accessible-close {
     width: inherit;
@@ -50,3 +57,23 @@ prm-full-view .send-actions-content-item {
     margin-bottom: 6px;
 }
 
+@media screen and (max-width: 959px) {
+    #action_list prm-action-list {
+        max-width: 100%;
+        margin-left: -10em;
+    }
+
+    #action_list prm-action-list > md-nav-bar .md-nav-item .md-button {
+        line-height: 14px;
+    }
+    #action_list prm-action-list > md-nav-bar .md-nav-item .md-button md-icon svg {
+        height: 90%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #action_list prm-action-list {
+        margin-left: 0;
+    }
+}
