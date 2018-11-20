@@ -15,7 +15,6 @@
     position: fixed;
     bottom: 0;
     max-width: 65%;
-    margin-left: -7.5em;
     z-index: 98;
     background-color: gainsboro;
     box-shadow: 0 1px 0 0 rgba(58,58,58,.1),0 1px 5px 0 rgba(58,58,58,.2);
@@ -60,10 +59,12 @@ prm-full-view .send-actions-content-item {
 @media screen and (max-width: 959px) {
     #action_list prm-action-list {
         max-width: 100%;
-        margin-left: -10em;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
-
-    #action_list prm-action-list > md-nav-bar .md-nav-item .md-button {
+    #action_list prm-action-list > md-nav-bar .md-button {
         line-height: 14px;
     }
     #action_list prm-action-list > md-nav-bar .md-nav-item .md-button md-icon svg {
@@ -73,7 +74,17 @@ prm-full-view .send-actions-content-item {
 }
 
 @media screen and (max-width: 599px) {
+    prm-action-list > md-nav-bar .md-nav-item {
+        max-width: 65px;
+    }
     #action_list prm-action-list {
-        margin-left: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #action_list prm-action-list > md-nav-bar .md-button {
+        min-width: 50px;
+        padding: 0.5em;
     }
 }
