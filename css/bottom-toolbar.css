@@ -88,3 +88,8 @@ prm-full-view .send-actions-content-item {
         padding: 0.5em;
     }
 }
+
+/* Always add padding to record display */
+.full-view-inner-container {
+    padding-bottom: 10em;
+}
