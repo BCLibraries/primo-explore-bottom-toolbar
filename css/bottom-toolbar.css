@@ -91,5 +91,5 @@ prm-full-view .send-actions-content-item {
 
 /* Always add padding to record display */
 .full-view-inner-container, ._xs .full-view-inner-container {
-    padding-bottom: 10em;
+    padding-bottom: 10em !important;
 }
