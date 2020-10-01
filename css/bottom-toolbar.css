@@ -56,13 +56,17 @@ prm-full-view .send-actions-content-item {
     margin-bottom: 6px;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1299px) {
     #action_list prm-action-list {
         max-width: 100%;
         bottom: 0;
         left: 0;
         right: 0;
         margin: auto;
+    }
+    #action_list prm-action-list .actions-layout {
+        flex-flow: row nowrap;
+        overflow: auto;
     }
     #action_list prm-action-list > md-nav-bar .md-button {
         line-height: 14px;
@@ -73,7 +77,7 @@ prm-full-view .send-actions-content-item {
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 649px) {
     prm-action-list > md-nav-bar .md-nav-item {
         max-width: 65px;
     }
